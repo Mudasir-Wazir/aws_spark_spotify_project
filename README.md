@@ -55,7 +55,9 @@ A Snowflake SQL script (`snowflake.sql`) creates a database (`spotify_db`) with 
 ### 4. Data Visualization: Power BI
 
 The Snowflake tables are connected to Power BI, where detailed visualizations are created.
-
+1. Top 10 artists by SOng Popularity
+2. How song popularity trends monthly?
+3. Song duration vs Song Popularity
 
 These visualizations provide valuable insights into Spotify data trends.
 
