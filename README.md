@@ -1,6 +1,9 @@
 # Spotify ETL Pipeline
 
-This project presents a sophisticated ETL pipeline architecture specifically designed to ingest, transform, and load Spotify playlist data into a Snowflake database for comprehensive analysis and visualization. The pipeline capitalizes on a synergistic integration of AWS services, Snowflake, and Power BI to automate the intricate processes of data handling. By leveraging Apache Spark within the transformation phase, the pipeline achieves an unparalleled capacity for handling large-scale data with efficiency and scalability. This methodological approach ensures high performance and adaptability to complex data structures, making it an exemplary model for data engineering workflows.
+This project presents a sophisticated ETL pipeline architecture specifically designed to ingest, transform, and load Spotify playlist data into a Snowflake database for comprehensive analysis and visualization.
+The pipeline capitalizes on a synergistic integration of AWS services, Snowflake, and Power BI to automate the intricate processes of data handling.
+By leveraging Apache Spark within the transformation phase, the pipeline achieves an unparalleled capacity for handling large-scale data with efficiency and scalability.
+This methodological approach ensures high performance and adaptability to complex data structures, making it an exemplary model for data engineering workflows.
 ---
 
 ## Workflow Description
