@@ -20,6 +20,8 @@ A Spotify API is used to extract raw playlist data in JSON format. The connectio
 
 This function is triggered every midnight using Amazon CloudWatch.
 
+![Pipeline](extract_pipeline.png)
+
 ---
 
 ### 2. Data Transformation: AWS Glue
