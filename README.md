@@ -59,7 +59,7 @@ The Snowflake tables are connected to Power BI, where detailed visualizations ar
 
 These visualizations provide valuable insights into Spotify data trends.
 
-![Data Visualization](spotify dashboard.png)
+![Data Visualization](dashboard.png)
 
 ---
 
