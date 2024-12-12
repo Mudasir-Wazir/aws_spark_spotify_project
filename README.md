@@ -5,7 +5,7 @@ This project presents a sophisticated ETL pipeline architecture specifically des
 
 ## Workflow Description
 
-![Workflow](architecture.png)
+![Workflow](architecture.jpg)
 
 ### 1. Data Extraction: AWS Lambda
 A Spotify API is used to extract raw playlist data in JSON format. The connection is established using SpotifyClientCredentials, where client credentials (Client ID and Secret) are securely stored in the Lambda environment variables.
