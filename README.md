@@ -1,11 +1,23 @@
 # Spotify ETL Pipeline
 
+
 This project presents a sophisticated ETL pipeline architecture specifically designed to ingest, transform, and load Spotify playlist data into a Snowflake database for comprehensive analysis and visualization.
 The pipeline capitalizes on a synergistic integration of AWS services, Snowflake, and Power BI to automate the intricate processes of data handling.
 By leveraging Apache Spark within the transformation phase, the pipeline achieves an unparalleled capacity for handling large-scale data with efficiency and scalability.
 This methodological approach ensures high performance and adaptability to complex data structures, making it an exemplary model for data engineering workflows.
 ---
 
+
+## Key Features
+
+- **Automation**: Entire pipeline (ETL) is automated with triggers from CloudWatch and Snowpipe.
+- **Scalability**: Using AWS Lambda, Glue, and Spark allows handling large volumes of Spotify data efficiently.
+- **Real-time Data Updates**: Snowpipe enables near-real-time updates of data in Snowflake.
+- **Customizable Transformations**: Transformation logic is adaptable to different data structures or additional requirements with Spark providing the flexibility to process complex and nested data efficiently.
+
+
+
+---
 ## Workflow Description
 
 ![Workflow](architecture.jpg)
@@ -65,23 +77,8 @@ These visualizations provide valuable insights into Spotify data trends.
 
 ---
 
-## Key Features
 
-- **Automation**: Entire pipeline (ETL) is automated with triggers from CloudWatch and Snowpipe.
-- **Scalability**: Using AWS Lambda and Glue allows handling large volumes of Spotify data efficiently.
-- **Real-time Data Updates**: Snowpipe enables near-real-time updates of data in Snowflake.
-- **Customizable Transformations**: Transformation logic is adaptable to different data structures or additional requirements.
 
----
-
-## Resources
-
-- **AWS Lambda Function Code**: `lambda_function.py`
-- **AWS Glue Transformation Code**: `spark_transformation.py`
-- **Snowflake SQL Script**: `snowflake.sql`
-- **Data Visualizations**
-
----
 
 ## Tools Used
 
